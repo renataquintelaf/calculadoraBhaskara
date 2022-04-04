@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+    height: 100%;
+    font-family: 'Send Flowers', cursive;
+    background-color: #FFBBBB;
+}
+
+.areacalculadora {
+    position: relative;
+    background: #F0FFC2;
+    border-radius: 10px;
+    z-index: 10;
+    border-top: 1px solid #F0FFC2;
+    border-left: #F0FFC2;
+    box-shadow: 20px;
+}
+
+.dentro {
+    padding: 2rem;
+
+}
+
+input {
+    font-family: 'Send Flowers', cursive;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: .5rem;
+    border-color: #96CEB4;
+    max-width: 100%;
+}
+
+button {
+    font-family: 'Send Flowers', cursive;
+    border-radius: .5rem;
+    background-color: #96CEB4;
+}
+
+.resultados {
+    padding: 0.7rem;
+
+}
